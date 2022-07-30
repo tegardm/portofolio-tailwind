@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="./imgs/fav.png">
+    <title>Tegar DM</title>
+    <style>
+        /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3CCF4E;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+    </style>
+</head>
+<body class="font-Poppins  overflow-x-hidden">
+    <!-- Header -->
+    <header class="border-b border-l-bookmark-purple bg-opacity-75 fixed top-0 w-full z-30 bg-bookmark-white">
+        <nav class="container sm:flex-row flex-col gap-4 text-center flex items-center py-4 pt-4  lg:pt-8">
+               <div id="titleNav" class="hidden md:block py-1"><h1 class="text-xl hover:scale-125 transition-all text-bookmark-purple tracking-widest font-semibold"><a href="#header">TEGARDM</a></h1></div> 
+               <ul id="listNav" class=" flex-col hidden sm:flex-row sm:flex text-bookmark-blue uppercase text-xs justify-end items-center gap-4 sm:gap-12 flex-1">
+                <li class="cursor-pointer hover:scale-125 transition-all"><a href="#aboutme">Tentang Saya</a></li>
+                <li class="cursor-pointer hover:scale-125 transition-all"><a href="#sosmed">Social Media</a></li>
+                <li class="cursor-pointer hover:scale-125 transition-all"><a href="#faq">FAQ</a></li>
+                <li class="cursor-pointer hover:scale-125 transition-all"><a href="#feedback">Berikan Saran</a></li>
+                <!-- <button type="button" class="bg-bookmark-red text-white rounded-md py-3 px-7 uppercase">Login</button> -->
+               </ul>
+               <div class="flex sm:hidden flex-1 justify-end">
+                <i id="btnHumburger" class="cursor-pointer fas fa-bars text-2xl"></i>
+               </div>
+        </nav>
+    </header>
+    <!-- Header -->
+    <!-- Section -->
+    <section id="header"  class="relative ">
+        <div class="container  flex flex-col-reverse lg:flex-row items-center mt-14 lg:mt-28 gap-12">
+            <!-- Content -->
+            <div  data-aos="fade-up" data-aos-duration="2000" class="flex flex-1 flex-col items-center lg:items-start z-10">
+                <h2 class="text-bookmark-blue text-3xl md:text-4xl font-semibold lg:text-5xl text-center lg:text-left mb-3">
+                    Hi <span class="text-bookmark-purple">Selamat</span> Datang !
+                </h2>
+                <p class=" text-center lg:text-left text-bookmark-grey lg:text-lg text-md mb-6">
+                   Selamat datang di personal website saya, dalam website ini berisikan informasi tentang diri saya secara singkat dan juga website ini adalah bentuk implementasi hasil pembelajaran saya dalam Web Development
+                </p>
+                <div class="flex justify-center flex-wrap gap-6">
+                    <button class="btn btn-purple hover:bg-bookmark-white hover:text-black"><a target="_blank" href="https://www.instagram.com/tegar_deyustian/">Hubungi Saya</a></button>
+                    <button class="btn btn-white hover:bg-bookmark-purple hover:text-white"><a href="#feedback">Berikan Saran</a></button>
+                </div>
+            </div>
+            <!-- Image -->
+            <div  data-aos="fade-up" data-aos-duration="2000"  class="flex justify-center flex-1 mb-6 md:mb-12 lg:mb-0 z-20">
+                <img class="w-5/6 z-20 md:rounded-l-full md:rounded-t-3xl border-bookmark-purple border-4 md:border-8 md:rounded-br-full h-5/6 sm:w-3/4 sm:h-3/4 md:w-11/12 md:h-11/12 lg:w-full lg:h-full" src="https://alquranku.netlify.app/img/foto.8ec373e2.jpg" alt="">
+            </div>
+        </div>
+        <!-- Rounded Object -->
+        <div data-aos="fade-up" data-aos-duration="2000" class="hidden md:block    bg-bookmark-purple rounded-bl-full absolute overflow-hidden h-80 w-2/4 top-0 right-0"></div>
+    </section>
+    <!-- Section -->
+    <!-- Tentang Saya -->
+    <section id="aboutme"  class="bg-bookmark-white py-20 mt-20 lg:mt-60">
+        <!-- Heading -->
+        <div data-aos="zoom-out-up" data-aos-duration="1500" class="sm:w-3/4 lg:w-5/12 mx-auto text-center px-2">
+            <h1 class="text-3xl  text-bookmark-blue">Tentang Saya</h1>
+            <p class="text-bookmark-grey mt-4" >Halo, perkenalkan nama saya Tegar Deyustian (19), saya baru saja menyelesaikan pendidikan Sekolah Menengah Atas (SMA) saya dan saat ini dalam fase transisi ke bangku perkuliahan.</p>
+        </div>
+        <!-- Feature #1 -->
+        <div data-aos="fade-down-left" data-aos-duration="1000" class="relative mt-20 lg:mt-24">
+                <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-28">
+                    <!-- image -->
+                    <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+                        <img class="lg:rounded-r-full overflow-hidden lg:scale-110 border-bookmark-purple lg:border-8 border-4 w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" 
+                        src="https://cdn.discordapp.com/attachments/766624566838820918/1001165042676408440/unknown.png" alt="">
+                    </div>
+                    <!-- Content -->
+                    <div class="flex flex-col  flex-1 items-center lg:items-start">
+                        <h1 class="text-2xl text-bookmark-blue capitalize">Lahir di Bali</h1>
+                        <p class="text-bookmark-grey py-4 text-md text-center lg:text-left sm:w-3/4 lg:w-full">Saya lahir di provinsi Bali tepatnya di <strong> kota Denpasar</strong>, sebagian masa pertumbuhan dan pendidikan saya, saya lalui di pulau dewata yang indah dan cantik ini sebelum akhirnya saya pindah karna alasan tertentu.</p>
+                            <button class="btn btn-purple hover:bg-bookmark-white hover:text-black"><a target="_blank" href="https://www.instagram.com/tegar_deyustian/">Lebih Lanjut Tentang Saya</a></button>
+                    </div>
+                </div>
+                 <!-- Rounded Object -->
+                <div class="hidden lg:block  bg-bookmark-purple rounded-r-full absolute overflow-hidden h-80 w-2/4 top-20 left-0"></div>
+
+        </div>
+        <!-- Feature #2 -->
+        <div   data-aos="fade-down-right" data-aos-duration="1000" class="relative mt-20 lg:mt-52">
+            <div class="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-28">
+                <!-- image -->
+                <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+                    <img class="lg:rounded-l-full overflow-hidden lg:scale-110 border-bookmark-purple lg:border-8 border-4 w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="https://cdn.discordapp.com/attachments/766624566838820918/1001158776176508969/malang.jpg" alt="">
+                </div>
+                <!-- Content -->
+                <div class="flex flex-col  flex-1 items-center lg:items-start">
+                    <h1 class="text-2xl text-bookmark-blue capitalize">Seorang Mahasiswa</h1>
+                    <p class="text-bookmark-grey py-4 text-md text-center lg:text-left sm:w-3/4 lg:w-full">Melanjutkan narasi diatas setelah saya menginjak usia 16 tahun saya memutuskan untuk pindah keluar dari provinsi tersebut dan beralih ke salah satu kota pendidikan
+                        yang berada di provinsi Jawa Timur yaitu kota Malang, dan setelah saya menyelesaikan SMA saya, akhirnya saya melanjutkan pendidikan saya dengan mengambil program S1 dengan prodi <strong>Pendidikan Teknik Informatika (PTI)</strong> disalah satu 
+                        universitas pendidikan terbaik di Indonesia yaitu Universitas Negri Malang (UM).
+                    </p>
+                        <button class="btn btn-purple hover:bg-bookmark-white hover:text-black"><a target="_blank" href="https://um.ac.id/">Kunjungi Laman UM</a></button>
+                </div>
+            </div>
+             <!-- Rounded Object -->
+            <div class="hidden lg:block  bg-bookmark-purple rounded-l-full absolute overflow-hidden h-80 w-2/4 top-20 right-0"></div>
+
+    </div>
+     <!-- Feature #3 -->
+     <div  data-aos="fade-down-left" data-aos-duration="1000" class="relative mt-20 lg:mt-52">
+        <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-28">
+            <!-- image -->
+            <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+                <img class="lg:rounded-r-full overflow-hidden lg:scale-110 border-bookmark-purple lg:border-8 border-4 w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" 
+                src="https://cdn.discordapp.com/attachments/766624566838820918/1001167352433483907/unknown.png" alt="">
+            </div>
+            <!-- Content -->
+            <div class="flex flex-col  flex-1 items-center lg:items-start">
+                <h1 class="text-2xl text-bookmark-blue capitalize">Content Creator di youtube</h1>
+                <p class="text-bookmark-grey py-4 text-md text-center lg:text-left sm:w-3/4 lg:w-full">Selain memfokuskan untuk menyelesaikan pendidikan formal saya, saya juga senang menekuni passion saya karna ketertarikan saya terhadap dunia digital sudah ada semenjak dibangku SMA
+                    saya memulai belajar <strong>Programming & Design Graphic</strong> sedari masa SMA dan dikarenakan saya juga memiliki keinginan untuk berbagi ilmu akhirnya saya juga memutuskan membuat content - content sederhana seputaran Design Graphic dalam laman Youtube pribadi saya,
+                    seperti tutorial Photoshop, GFX, Manipulation dan lain sebagainya.
+                </p>
+                    <button class="btn btn-purple hover:bg-bookmark-white hover:text-black"><a target="_blank" href="https://www.youtube.com/channel/UCZeGD--FOHJ-CBbWtcdps_w">Kunjungi Youtube Saya</a></button>
+            </div>
+        </div>
+         <!-- Rounded Object -->
+        <div class="hidden lg:block  bg-bookmark-purple rounded-r-full absolute overflow-hidden h-80 w-2/4 top-20 left-0"></div>
+
+</div>
+    </section>
+    <!-- Tentang Saya -->
+    <!-- Social Media -->
+    <section id="sosmed" class="py-20 mt-20">
+        <!-- Heading -->
+        <div class="sm:w-3/4 lg:w-5/12 mx-auto text-center px-2">
+            <h1 class="text-3xl  text-bookmark-blue">Social Media Saya</h1>
+            <p class="text-bookmark-grey mt-4" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis commodi sapiente omnis? Architecto, perspiciatis impedit.</p>
+        </div>
+        <!-- Cards -->
+        <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 max-w-screen-lg mt-16">
+            <!-- Card 1 -->
+            <div data-aos="flip-left" data-aos-duration="1500" class="flex border-bookmark-purple border-2 flex-1 flex-col items-center rounded-md lg:mb-16 shadow-md">
+                <div class="p-6 flex flex-1 text-center text-sm flex-col items-center">
+                    <img src="./imgs/logo-instagram.svg" class="w-5/12 h-5/12" alt="">
+                    <h3 class="mt-5 mb-2 text-bookmark-blue text-lg">Instagram Saya</h3>
+                    <p class="mb-2 text-bookmark-grey font-light">my instagram is @tegar_deyustian</p>
+                </div>
+                <hr class="w-full  border-bookmark-purple">
+                <div class="flex p-6">
+                    <button class="btn btn-purple hover:bg-bookmark-white hover:text-black"><a target="_blank"  href="https://www.instagram.com/tegar_deyustian/">Kunjungi</a></button>
+                </div>
+            </div>
+             <!-- Card 2 -->
+             <div data-aos="flip-right" data-aos-duration="1500" class="flex flex-1 flex-col border-bookmark-purple border-2 items-center rounded-md lg:my-8 shadow-md">
+                <div class="p-6 flex flex-1 text-center text-sm flex-col items-center">
+                    <img src="./imgs/logo-youtube.svg" class="w-5/12 h-5/12" alt="">
+                    <h3 class="mt-5 mb-2 text-bookmark-blue text-lg">Youtube Saya</h3>
+                    <p class="mb-2 text-bookmark-grey font-light">my youtube channel is Deyustian Pxl</p>
+                </div>
+                <hr class="w-full  border-bookmark-purple">
+                <div class="flex p-6">
+                    <button class="btn btn-purple hover:bg-bookmark-white hover:text-black"><a target="_blank" href="https://www.youtube.com/channel/UCZeGD--FOHJ-CBbWtcdps_w">Kunjungi</a></button>
+                </div>
+            </div>
+             <!-- Card 3 -->
+             <div data-aos="flip-left" data-aos-duration="1500" class="flex flex-1 flex-col border-bookmark-purple border-2 items-center rounded-md lg:mb-16 shadow-md">
+                <div class="p-6 flex flex-1 text-center text-sm flex-col items-center">
+                    <img src="./imgs/logo-deviant.svg" class="w-5/12 h-5/12" alt="">
+                    <h3 class="mt-5 mb-2 text-bookmark-blue text-lg">DeviantArt Saya</h3>
+                    <p class="mb-2 text-bookmark-grey font-light">my DeviantArt account is tegardm </p>
+                </div>
+                <hr class="w-full  border-bookmark-purple">
+                <div class="flex p-6">
+                    <button class="btn btn-purple hover:bg-bookmark-white hover:text-black"><a a target="_blank" href="https://www.deviantart.com/tegardm">Kunjungi</a></button>
+                </div>
+            </div>
+             <!-- Card 4 -->
+             <div data-aos="flip-right" data-aos-duration="1500" class="flex flex-1 flex-col border-bookmark-purple border-2 items-center rounded-md lg:my-8 shadow-md">
+                <div class="p-6 flex flex-1 text-center text-sm flex-col items-center">
+                    <img src="./imgs/logo-github.svg" class="w-5/12 h-5/12" alt="">
+                    <h3 class="mt-5 mb-2 text-bookmark-blue text-lg">Github Saya</h3>
+                    <p class="mb-2 text-bookmark-grey font-light">my Github account is tegardm </p>
+                </div>
+                <hr class="w-full  border-bookmark-purple">
+                <div class="flex p-6">
+                    <button class="btn btn-purple hover:bg-bookmark-white hover:text-black"><a target="_blank" href="https://github.com/tegardm">Kunjungi</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Social Media -->
+    <!-- FAQ -->
+    <section id="faq" class="bg-bookmark-white py-20 ">
+        <div class="container text-bookmark-blue">
+             <!-- Heading -->
+                <div data-aos="zoom-out-up" data-aos-duration="1500" class="sm:w-3/4 lg:w-8/12 mx-auto text-center px-2">
+                    <h1 class="text-3xl  text-bookmark-blue">Frequently Asked Question </h1>
+                    <p class="text-bookmark-grey mt-4" >Berikut beberapa pertanyaan yang sering saya dapatkan dan mungkin kamu juga bertanya, dibawah sudah saya siapkan beserta jawabannya.</p>
+                </div>
+            <!-- FAQ  Items -->
+            <!-- First Question -->
+            <div data-aos="fade-right" data-aos-duration="1000" class="flex flex-col cursor-pointer sm:w-3/4 lg:w-7/12 mt-12 mx-auto">
+                <div class="faqQuestion flex items-center border-b py-4 border-bookmark-grey">
+                    <span class="flex-1">
+                       Bagaimana saya bisa menghubungi kamu ?
+                    </span>
+                    <i class="text-bookmark-purple fas fa-chevron-down"></i>
+                </div>
+                <div>
+                    <p class="hidden text-sm pt-3 text-bookmark-purple">Kalian bisa menghubungi saya melalui salah satu social media yang saya cantumkan, saya sangat terbuka untuk segala pertanyaan dan interaksi positif yang diajukan.</p>
+                </div>
+            </div>
+            <!-- Second Question -->
+            <div data-aos="fade-left" data-aos-duration="1000"  class="flex flex-col cursor-pointer sm:w-3/4 lg:w-7/12 mt-12 mx-auto">
+                <div class="faqQuestion flex items-center border-b py-4 border-bookmark-grey">
+                    <span class="flex-1">
+                        Teknologi apa yang digunakan untuk membangun website ini ?
+                    </span>
+                    <i class="text-bookmark-purple fas fa-chevron-down"></i>
+                </div>
+                <div>
+                    <p class="hidden text-sm pt-3 text-bookmark-purple">Seperti website pada umumnya website ini juga saya bangun dengan HTML & CSS serta Javascript sebagai bahasa pemrogramman Web nya, serta framework dan library seperti Aos.js dan TailwindCSS</p>
+                </div>
+            </div>
+            <!-- Third Question -->
+            <div data-aos="fade-right" data-aos-duration="1000"  class="flex flex-col cursor-pointer sm:w-3/4 lg:w-7/12 mt-12 mx-auto">
+                <div class="faqQuestion flex items-center border-b py-4 border-bookmark-grey">
+                    <span class="flex-1">
+                        Kenapa kamu mengambil prodi pendidikan bukan teknik murni ?
+                    </span>
+                    <i class="text-bookmark-purple fas fa-chevron-down"></i>
+                </div>
+                <div>
+                    <p class="hidden text-sm pt-3 text-bookmark-purple">Keputusan saya masih ada keterkaitannya terhadap Passion saya yang sudah saya tuliskan diatas, dimana saya memiliki ketertarikan dalam berbagi ilmu dan dunia informatika serta digital, dan menurut saya mengambil prodi Pendidikan adalah Keputusan yang tepat.</p>
+                </div>
+            </div>
+            <!-- Fourth Question -->
+            <div data-aos="fade-left" data-aos-duration="1000"  class="flex flex-col cursor-pointer sm:w-3/4 lg:w-7/12 mt-12 mx-auto">
+                <div class="faqQuestion flex items-center border-b py-4 border-bookmark-grey">
+                    <span class="flex-1">
+                        Bagaimana cara memulai belajar Web Development ?
+                    </span>
+                    <i class="text-bookmark-purple fas fa-chevron-down"></i>
+                </div>
+                <div>
+                    <p class="hidden text-sm pt-3 text-bookmark-purple">Untuk memulai belajar Web Development tidak harus menempuh pendidikan formal based from my own experience, dunia saat ini sudah sangat memberi kemudahan bagi kita bahkan untuk memulai belajar Web Development
+                        kamu cukup perlu menyediakan internet dan laptop seluruh kebutuhan dari code editor sampai sumber belajar dapat kamu akses secara gratis di internet.
+                </div>
+                <button class="hover:scale-105  btn flex self-center mt-12 btn-purple hover:bg-bookmark-white hover:text-black">Lebih Lanjut Tentang Saya</button>
+            </div>
+            
+
+        </div>
+    </section>
+    <!-- FAQ -->
+    <!-- Form -->
+    <section id="feedback" class="bg-gradient-to-b from-bookmark-purple to-bookmark-blue text-bookmark-white ">
+        <!-- Form Content -->
+        <div data-aos="zoom-out-up" data-aos-duration="1500" class="container text-center flex flex-col items-center py-20 ">
+            <h4 class="uppercase font-light text-xs tracking-wider mb-3">terimakasih sudah berkunjung ke personal website saya</h4>
+            <h2 class="text-xl  lg:w-7/12 mb-6 font-semibold tracking-widest flex-1">Memiliki Pesan Untuk Disampaikan ?!</h2>
+            <div class="flex flex-col w-full lg:gap-y-4 gap-y-4  sm:w-3/4 lg:w-6/12">
+                <form class="flex flex-col gap-y-5 " action="https://formspree.io/f/myyvgkll" method="POST">
+                <label> 
+                    <input type="email" required class="w-full rounded text-bookmark-blue p-4" placeholder="Tulis alamat emailmu disini..." name="email">
+                  </label>
+                <label for="">
+                    <textarea required  name="message" class="rounded w-full text-bookmark-blue p-4" placeholder="Tulis pesanmu disini..."  cols="30" rows="10"></textarea>
+                    
+                </label>
+                <button type="submit" class="self-center w-fit hover:scale-105 bg-bookmark-red btn hover:bg-bookmark-white hover:text-bookmark-blue text-sm text-white rounded-md py-3 px-6 uppercase">Kirim Pesan</button>
+            </form>
+            </div>
+        </div>
+       
+    </section>
+    <!-- Form -->
+    <!-- Footer -->
+    <section  class="bg-bookmark-blue text-bookmark-white">
+        <div class="container items-center text-center  gap-4 lg:gap-12 flex-col lg:flex-row flex w-full sm:w-3/4 lg:w-8/12  p-4">
+           
+                <ul class="flex lg:flex-row items-center  flex-1 font-light text-sm gap-4 lg:gap-12">
+                    <h1 class="cursor-pointer hover:scale-110 transition duration-500 text-md font-bold tracking-widest text-lg uppercase"><a href="#header">tegardm</a></h1>
+                    <li class="cursor-pointer hover:scale-110 transition duration-500"><p><a href="#aboutme">Tentang Saya</a></p></li>
+                    <li class="cursor-pointer hover:scale-110 transition duration-500"><p><a href="#sosmed">Social Media</a></p></li>
+                    <li class="cursor-pointer hover:scale-110 transition duration-500"><p><a href="#faq">FAQ</a></p></li>
+                </ul>
+            <ul class="flex justify text-xl  gap-12">
+               <li class="cursor-pointer hover:scale-125 transition duration-500"><span class="hidden">Instagram </span><a target="_blank"  href="https://www.instagram.com/tegar_deyustian/"><i class="fa-brands fa-instagram"></i></a></li>
+               <li class="cursor-pointer hover:scale-125 transition duration-500"><span class="hidden">Youtube </span><a target="_blank" href="https://www.youtube.com/channel/UCZeGD--FOHJ-CBbWtcdps_w"><i class="fa-brands fa-youtube"></i></a></li>
+               <li class="cursor-pointer hover:scale-125 transition duration-500"><span class="hidden">DeviantArt </span><a target="_blank" href="https://www.deviantart.com/tegardm"><i class="fa-brands fa-deviantart"></i></a></li>
+               <li class="cursor-pointer hover:scale-125 transition duration-500"><span class="hidden">Github </span><a target="_blank" href="https://github.com/tegardm"><i class="fa-brands fa-github"></i></a></li>    
+            </ul>
+        </div>
+    </section>
+    <!-- Footer -->
+
+</body>
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
+    
+</html>
