@@ -750,6 +750,11 @@ video {
   gap: 1.5rem;
 }
 
+.gap-x-2 {
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+}
+
 .gap-x-28 {
   -moz-column-gap: 7rem;
        column-gap: 7rem;
@@ -820,27 +825,27 @@ video {
 
 .border-bookmark-purple {
   --tw-border-opacity: 1;
-  border-color: rgb(60 207 78 / var(--tw-border-opacity));
+  border-color: rgb(228 197 158 / var(--tw-border-opacity));
 }
 
 .border-l-bookmark-purple {
   --tw-border-opacity: 1;
-  border-left-color: rgb(60 207 78 / var(--tw-border-opacity));
+  border-left-color: rgb(228 197 158 / var(--tw-border-opacity));
 }
 
 .bg-bookmark-blue {
   --tw-bg-opacity: 1;
-  background-color: rgb(36 42 69 / var(--tw-bg-opacity));
+  background-color: rgb(128 61 59 / var(--tw-bg-opacity));
 }
 
 .bg-bookmark-purple {
   --tw-bg-opacity: 1;
-  background-color: rgb(60 207 78 / var(--tw-bg-opacity));
+  background-color: rgb(228 197 158 / var(--tw-bg-opacity));
 }
 
 .bg-bookmark-red {
   --tw-bg-opacity: 1;
-  background-color: rgb(250 89 89 / var(--tw-bg-opacity));
+  background-color: rgb(175 130 96 / var(--tw-bg-opacity));
 }
 
 .bg-bookmark-white {
@@ -857,13 +862,13 @@ video {
 }
 
 .from-bookmark-purple {
-  --tw-gradient-from: #3CCF4E var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(60 207 78 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-from: #E4C59E var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(228 197 158 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
 .to-bookmark-blue {
-  --tw-gradient-to: #242A45 var(--tw-gradient-to-position);
+  --tw-gradient-to: #803D3B var(--tw-gradient-to-position);
 }
 
 .p-4 {
@@ -985,7 +990,7 @@ video {
 
 .text-bookmark-blue {
   --tw-text-opacity: 1;
-  color: rgb(36 42 69 / var(--tw-text-opacity));
+  color: rgb(128 61 59 / var(--tw-text-opacity));
 }
 
 .text-bookmark-grey {
@@ -995,7 +1000,7 @@ video {
 
 .text-bookmark-purple {
   --tw-text-opacity: 1;
-  color: rgb(60 207 78 / var(--tw-text-opacity));
+  color: rgb(228 197 158 / var(--tw-text-opacity));
 }
 
 .text-bookmark-white {
@@ -1051,7 +1056,7 @@ video {
 .btn-purple {
   border-width: 1px;
   --tw-bg-opacity: 1;
-  background-color: rgb(60 207 78 / var(--tw-bg-opacity));
+  background-color: rgb(228 197 158 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -1090,7 +1095,7 @@ video {
 
 .hover\:bg-bookmark-purple:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(60 207 78 / var(--tw-bg-opacity));
+  background-color: rgb(228 197 158 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-bookmark-white:hover {
@@ -1105,7 +1110,7 @@ video {
 
 .hover\:text-bookmark-blue:hover {
   --tw-text-opacity: 1;
-  color: rgb(36 42 69 / var(--tw-text-opacity));
+  color: rgb(128 61 59 / var(--tw-text-opacity));
 }
 
 .hover\:text-white:hover {
